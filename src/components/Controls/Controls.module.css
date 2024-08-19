@@ -1,0 +1,13 @@
+.controls {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+
+  & button {
+    font-size: inherit;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}

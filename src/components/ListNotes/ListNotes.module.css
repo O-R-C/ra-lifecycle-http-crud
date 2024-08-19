@@ -1,0 +1,13 @@
+.list-notes {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  & li {
+    flex: 0 1 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+}

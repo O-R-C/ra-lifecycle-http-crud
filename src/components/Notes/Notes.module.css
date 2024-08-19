@@ -1,0 +1,13 @@
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loading {
+  color: rgba(0, 0, 0, 0.6);
+
+  & button {
+    display: none;
+  }
+}
