@@ -1,6 +1,6 @@
 class FetchAPI {
-  constructor(url = null) {
-    this.url = url ?? import.meta.env.VITE_REACT_APP_API_URL
+  constructor() {
+    this.url = import.meta.env.VITE_REACT_APP_API_URL
   }
   async fetchNotes(setNotes, setIsLoading) {
     try {
