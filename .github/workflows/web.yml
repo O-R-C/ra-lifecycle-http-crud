@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_REACT_APP_API_URL: ${{ secrets['VITE_REACT_APP_API_URL'] }}
+          VITE_REACT_APP_API_URL: 'http://localhost:7070/notes/'
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
